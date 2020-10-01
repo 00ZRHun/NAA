@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,38 +31,55 @@
 		<!-- Custom stlylesheet -->
 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
  			
-		 
+		<!-- slick -->
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
 		
-<style>.checked {
-  color: orange;
-}.count{
-	color: white;
-	background-color: #d57729;
-	padding:10px 10px 10px 10px;
-}
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-}
+<style>
+	.checked {
+	  color: orange;
+	}.count{
+		color: white;
+		background-color: #d57729;
+		padding:10px 10px 10px 10px;
+	}
+	html,body
+	{
+		width: 100%;
+		height: 100%;
+		margin: 0px;
+		padding: 0px;
+		overflow-x: hidden; 
+	}
 
+    .flex-container {
+      display: flex;
+      background-color: DodgerBlue;
+      overflow-x: scroll;
+    }
+    
+    /* .flex-container > div > div { */
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+    }
 
-@media only screen and (max-width: 600px) {
- .thecard{
- 	padding-left: 60px
- }
-.partner{
-	font-size: 18px
-}
- 
+	#courseImg {
+		width: 100%;
+	}
 
-
-
-
-}
+	@media only screen and (max-width: 600px) {
+		.thecard{
+			padding-left: 60px
+		}
+		.partner{
+			font-size: 18px
+		}
+	}
 
 </style>
     </head>
@@ -133,99 +152,276 @@ html,body
 			<!-- /container -->
 		</div>
 		<!-- /HOT DEAL SECTION --><hr>							
-		<div style="text-align: center;"><strong style="font-size: 30PX">PROFESSIONAL COURS</strong></div>
+		<div style="text-align: center;"><strong style="font-size: 30PX">PROFESSIONAL COURSE</strong></div>
+
+<!--  -->
+<!--  -->
+<!--  -->
 
 
-<div class="container thecard" style="padding-top: 20px" style="padding-left: 0">
-  <div class="row">
+<!-- <div class="container thecard flex-container" style="padding-top: 20px" style="padding-left: 0"> -->
+	<!-- <div class="flex-container"> -->
+		<section class="blue">
+			<div class="slider center">
+			<!-- <div class="flex-container container slider center"> -->
+			  <!-- <div class="row"> -->
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<!-- <img src="img/hotdeal.jpg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px"> -->
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+					 
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+			
+					<div style="width: 40%; padding-bottom: 30px">
+						<a href="">
+							<div class="card" style="width: 18rem;">
+								<img src="img/hotdeal.jpg" id="courseImg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
+								<div class="card-body"><br>
+									<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										
+										<p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
+			
+											<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
+								</div>
+							</div>
+						</a>
+					</div>
+					 
+					 
+				<!-- </div> -->
+					
+			</div>
+		</section>
 
-		<div class="col-sm-3" style="padding-bottom: 30px"><a href="">
-  			<div class="card" style="width: 18rem;">
-    		<img src="img/hotdeal.jpg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
-    		 	<div class="card-body"><br>
-    		 		<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
- 						  <span class="fa fa-star checked"></span>
-						  <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star"></span>
-			              
-			 			  <p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
-
-			 			    <a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
- 				</div>
- 			</div>
- 			</a>
- 		</div>
-
-	<div class="col-sm-3"style="padding-bottom: 30px"><a href="">
-  			<div class="card" style="width: 18rem;">
-    		<img src="img/hotdeal.jpg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
-    		 	<div class="card-body"><br>
-    		 		<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
- 						  <span class="fa fa-star checked"></span>
-						  <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star"></span>
-			             
-			 			  <p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
-
-			 			    <a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
- 				</div>
- 			</div>
- 			</a>
- 		</div>
-
- 			<div class="col-sm-3"style="padding-bottom: 30px"><a href="">
-  			<div class="card" style="width: 18rem;">
-    		<img src="img/hotdeal.jpg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
-    		 	<div class="card-body"><br>
-    		 		<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
- 						  <span class="fa fa-star checked"></span>
-						  <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star"></span>
-			             
-			 			  <p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
-
-			 			    <a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
- 				</div>
- 			</div>
- 			</a>
- 		</div>
-
-
- 			<div class="col-sm-3"style="padding-bottom: 30px"><a href="">
-  			<div class="card" style="width: 18rem;">
-    		<img src="img/hotdeal.jpg" class="card-img-top" alt="..." style="max-width: 250px;max-height: 170px">
-    		 	<div class="card-body"><br>
-    		 		<h5 class="card-title">Professional Diploma in Digital Maeketing</h5>
- 						  <span class="fa fa-star checked"></span>
-						  <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star checked"></span>
-			              <span class="fa fa-star"></span>
-			              
-			 			  <p><span style="font-size:20px"><strong>RM10</strong></span>&nbsp;<span style=" text-decoration: line-through;color: gray">RM 20</span> </p>
-
-			 			    <a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;">Get Quoter</a>
- 				</div>
- 			</div>
- 			</a>
- 		</div>	
-    </div>
-
-
-    <div class="row" style="padding-top: 5%"> 
-     <div class="col-sm-5"></div>
-    	 <div class="col-sm-2"><a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;font-size: 25px">Show More</a></div>
-    	   <div class="col-sm-5"></div>
-    </div>
-
-  
+<div class="row" style="padding-top: 5%"> 
+	<div class="col-sm-5"></div>
+	<div class="col-sm-2">
+		<a href="#" class="btn btn-primary" style="background-color: #d5823a;border: none;font-size: 25px">
+			Show More
+		</a>
+	</div>
+	<div class="col-sm-5"></div>
 </div>
+
 <hr>
 <br>
 
@@ -531,6 +727,12 @@ html,body
 		<script src="js/nouislider.min.js"></script>
 		<script src="js/jquery.zoom.min.js"></script>
 		<script src="js/main.js"></script>
+
+		<!-- slick -->
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="slick/slick.js"></script>
+		<script type="text/javascript" src="js/sclick.js"></script>
 
 	</body>
 	<script>
